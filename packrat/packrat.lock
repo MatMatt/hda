@@ -1,0 +1,9 @@
+PackratFormat: 1.4
+PackratVersion: 0.8.1
+RVersion: 3.6.3
+Repos: CRAN=https://cloud.r-project.org
+
+Package: packrat
+Source: CRAN
+Version: 0.8.1
+Hash: 502257b0c1ef1db0274ea5ecdec3c9ab

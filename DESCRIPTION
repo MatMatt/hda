@@ -1,0 +1,10 @@
+Package: hda
+Type: Package
+Title: Access to the WEkEO Harmonised Data Access service (HDA)
+Version: 0.1.0
+Author: Matteo Mattiuzzi
+Maintainer: Matteo Mattiuzzi <matteo@mattiuzzi.com>
+Description: Access to the WEkEO REST service HDA
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
