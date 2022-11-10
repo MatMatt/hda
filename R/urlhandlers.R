@@ -147,7 +147,7 @@ queryProduct <- function(datasetId,token)
   return(q)
 }
 
-dataRquest(datasetId,token)
+dataRequest <- function(datasetId,token)
 {
   cmdcurl <- Sys.which('curl')[[1]]
   preurl  <- paste0(" -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' --header 'Authorization: ",token,"' -d '{ ")
@@ -157,6 +157,5 @@ dataRquest(datasetId,token)
 
   urlstring <- paste0(cmdcurl, preurl, token, req, url,"'")
   q         <- system(urlstring, intern=TRUE)
-
   q         <- jsonlite::fromJSON(q)
 }
